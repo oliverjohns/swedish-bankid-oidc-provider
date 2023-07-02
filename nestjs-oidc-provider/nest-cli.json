@@ -1,0 +1,14 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      {
+        "include": "../cert",
+        "outDir": "dist/cert",
+        "watchAssets": true
+      }
+    ],
+    "watchAssets": true
+  }
+}
