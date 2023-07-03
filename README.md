@@ -10,6 +10,9 @@ If you have an idea for improvement please raise an issue or create a PR.
 - **BankID RP-API Version 6 compliant (kind of)** Strives to follow the new BankID guideliens in RP-API version 6, meaning no personal number start, QR code support, etc.
 - **Free & Customizable** Own your own BankID solution and customize it to your liking. No SaaS required!
 
+## BankID Test Certificate
+This repository includes the PFX certificate required for authenticating with BankID in their test environment. The cipher of the PFX file has been revised from the previously vulnerable RC2 cipher, which caused Node 18 errors, enhancing its security and overall stability.
+
 ## Disclaimer
 Use this OIDC provider at your own risk. I am not responsible for the way you use this code or whether or not it is secure/in line with Finasiell ID-teknik's requirements.
 
@@ -18,9 +21,8 @@ Use this OIDC provider at your own risk. I am not responsible for the way you us
 
 In the `nestjs-oidc-provider/` :
 
-1. Make sure you are running Node 16 (other Node versions dont work yet due to node-oidc-provider library)
-2. npm install
-3. `npm run start:dev`
+1. npm install
+2. `npm run start:dev`
 
 Now the OIDC provider is running at localhost:3001
 
