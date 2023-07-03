@@ -6,9 +6,9 @@ Additionally, the repository contains an example Next app that connects to the O
 If you have an idea for improvement please raise an issue or create a PR.
 
 ## Features
-- **OIDC Compliance:** The system supports authorization code, implicit, and hybrid flows to cater to your application's specific needs.
-- **BankID RP-API Version 6 compliant (kind of)** Strives to follow the new BankID guideliens in RP-API version 6, meaning no personal number start, QR code support, etc.
-- **Free & Customizable** Own your own BankID solution and customize it to your liking. No SaaS required!
+- ✅**OIDC Compliance:** The system supports authorization code, implicit, and hybrid flows to cater to your application's specific needs.
+- 🏦**BankID RP-API Version 6 compliant (kind of)** Strives to follow the new BankID guideliens in RP-API version 6, meaning QR code support, no personal number start, etc.
+- 🔧**Free & Customizable** Own your own BankID solution and customize it to your liking. No SaaS required!
 
 ![Diagram of how the Node OIDC BankID provider works in a system](/illustration.png)
 
