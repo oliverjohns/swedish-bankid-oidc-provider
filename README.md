@@ -10,6 +10,8 @@ If you have an idea for improvement please raise an issue or create a PR.
 - **BankID RP-API Version 6 compliant (kind of)** Strives to follow the new BankID guideliens in RP-API version 6, meaning no personal number start, QR code support, etc.
 - **Free & Customizable** Own your own BankID solution and customize it to your liking. No SaaS required!
 
+![Diagram of how the Node OIDC BankID provider works in a system](/illustration.png)
+
 ## BankID Test Certificate
 This repository includes the PFX certificate required for authenticating with BankID in their test environment. The cipher of the PFX file has been revised from the previously vulnerable RC2 cipher, which caused Node 18 errors, enhancing its security and overall stability.
 
