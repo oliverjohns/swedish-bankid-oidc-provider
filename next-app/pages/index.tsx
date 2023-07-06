@@ -12,7 +12,7 @@ export default function IndexPage() {
         Press sign in above to sign in with BankID. You will be redirected to the Nestjs OIDC BankID identity provider and upon authenticating with BankID you will get a valid session in next auth.
       </p>
       <p>
-        This is just an example app. Instead of this you would use your own frontend app.
+        This is just an example app. Instead of this you would use your own frontend app (React, Vue, etc) and auth solution (Keycloak, Auth0, Aws cognito, etc).
       </p>
     </Layout>
   );

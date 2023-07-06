@@ -18,6 +18,11 @@ This repository includes the PFX certificate required for authenticating with Ba
 ## Disclaimer
 Use this OIDC provider at your own risk. I am not responsible for the way you use this code or whether or not it is secure/in line with Finasiell ID-teknik's requirements.
 
+## Connecting the BankID identity with the user identity in your system
+When using this OIDC BankID provider in your auth solution, you must connect the provider based on some common shared field. It can for example be the persons personal number, or it can e.g be an email that the provider deduces from the personal number.
+
+In the OIDC function `findAccount` the personal number is available and can be used to build the "account object" to be returned.
+
 
 ## Starting the Nestjs OIDC Provider
 
