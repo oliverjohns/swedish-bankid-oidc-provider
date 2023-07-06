@@ -10,13 +10,13 @@ import {
   Res,
 } from "@nestjs/common";
 import { Provider } from "oidc-provider";
-import { Oidc, InteractionHelper } from "nest-oidc-provider";
 import { Request, Response } from "express";
 import { createHmac } from "node:crypto";
 import { SchedulerRegistry } from "@nestjs/schedule";
 import { CronJob } from "cron";
 import { BankIdClient, CompletionData } from "./bankid";
 import { getMessage } from "./messages";
+import { InteractionHelper, Oidc } from "src/oidc";
 
 type BankIdAuthState = {
   initiatedAt: Date;

@@ -1,9 +1,10 @@
-import {
-  OidcConfiguration,
-  OidcModuleOptions,
-  OidcModuleOptionsFactory,
-} from "nest-oidc-provider";
+// import {
+//   OidcConfiguration,
+//   OidcModuleOptions,
+//   OidcModuleOptionsFactory,
+// } from "nest-oidc-provider";
 import { Injectable } from "@nestjs/common";
+import { OidcConfiguration, OidcModuleOptions, OidcModuleOptionsFactory } from "src/oidc";
 
 @Injectable()
 export class OidcConfigService implements OidcModuleOptionsFactory {
